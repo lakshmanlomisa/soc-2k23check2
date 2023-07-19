@@ -1,15 +1,19 @@
 # Cricbuzz 
 
-run "node server.js" inside server directory
+Run Node.js Server:
+Open a terminal, navigate to "server" directory, and run: node server.js
 
-run "npm start dev" inside reactJS directory
+Run React App:
+Open a terminal, navigate to "reactJS" directory, and run: npm start dev
 
-make sure postgres server is also running
+Ensure PostgreSQL Server is Running:
+Confirm that PostgreSQL server is up and running.
 
-modify postgres credentials in server/lab4.env file
+Modify PostgreSQL Credentials:
+Update database credentials in "server/lab4.env" file.
 
-include node_modules inside both reactJS and src directories
-
+Include Node Modules:
+Run npm install in "reactJS" and "server" directories to install node_modules.
 References:
 https://www.youtube.com/watch?v=ldYcgPKEZC8&t=2270s
 https://www.chartjs.org/docs/
